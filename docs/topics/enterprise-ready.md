@@ -14,7 +14,7 @@ Ensuring the confidentiality and integrity of data in transit is fundamental.
 
 ## 2. Authentication
 
-A2A delegates authentication to standard web mechanisms, primarily relying on HTTP headers and established standards like OAuth2 and OpenID Connect. Authentication requirements are advertised by the A2A Server in its [Agent Card](../specification.md#5-agent-discovery-the-agent-card).
+A2A delegates authentication to standard web mechanisms, primarily relying on HTTP headers and established standards like OAuth2 and OpenID Connect. Authentication requirements are advertised by the A2A Server in its [Agent Card](spec/index.md#5-agent-discovery-the-agent-card).
 
 - **No In-Payload Identity:** A2A protocol payloads (JSON-RPC messages) do **not** carry user or client identity information. Identity is established at the transport/HTTP layer.
 - **Agent Card Declaration:** The A2A Server's `AgentCard` describes the authentication `schemes` it supports in its `security` field. Each named scheme in this field is an identifier specific to the card. The details for each named scheme, including the scheme type, can be provided in the `securitySchemes` field of the Agent Card. The supported names of the scheme types ("apiKey", "http", "oauth2", "openIdConnect") align with those defined in the [OpenAPI Specification for authentication](https://swagger.io/docs/specification/authentication/).
