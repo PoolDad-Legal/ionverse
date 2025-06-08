@@ -19,7 +19,7 @@ Here are some ideas and resources to continue your A2A journey:
     - The main A2A repository also has [samples for other languages and frameworks](https://github.com/google-a2a/A2A/tree/main/samples).
 - **Deepen Your Protocol Understanding:**
     - 📚 Read the complete [A2A Protocol Documentation site](https://google.github.io/A2A/) for a comprehensive overview.
-    - 📝 Review the detailed [A2A Protocol Specification](../../specification.md) to understand the nuances of all data structures and RPC methods.
+    - 📝 Review the detailed [A2A Protocol Specification](../spec/index.md) to understand the nuances of all data structures and RPC methods.
 - **Review Key A2A Topics:**
     - [A2A and MCP](../../topics/a2a-and-mcp.md): Understand how A2A complements the Model Context Protocol for tool usage.
     - [Enterprise-Ready Features](../../topics/enterprise-ready.md): Learn about security, observability, and other enterprise considerations.
