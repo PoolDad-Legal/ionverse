@@ -1,0 +1,9 @@
+{
+  "name": "@ionverse/ionwall",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/index.ts"
+  }
+}
